@@ -1,0 +1,77 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./background-image.jpg");
+    background-repeat :no-repeat;
+    background-size:cover;
+}
+
+form{
+    width: 45%;
+    height: 450px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    background-color: rgb(60, 70, 76);
+    border: 1px solid rgb(60, 70, 76);
+    border-radius: 20px;
+    opacity: 0.7;
+    /* box-shadow: 5px 5px -25px rgb(100, 0, 239); */
+    color: aliceblue;
+    text-align: center;
+    /* padding: 10px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.inputs{
+    border-width: 1px;
+    border-style: none;
+    /* padding-top: 50px; */
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+label{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 7px;
+    font-size: larger;
+}
+div> input{
+    width: 90%;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(103, 114, 216);
+    opacity: 0.7;
+    border-radius: 5px;
+    margin: auto;
+}
+/* #password */
+.title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.email, .password{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.password{
+    margin-bottom: 50px;
+}
+.submit{
+    width: 92%;
+    height:50px;
+    background-color: rgb(37, 47, 192);
+    opacity: 0.9;
+    border-radius:5px;
+    font-size: larger;
+    color: aliceblue;
+}
